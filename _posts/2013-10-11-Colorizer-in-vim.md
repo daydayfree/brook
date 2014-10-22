@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Colorizer，Vim 颜色显示插件
+title: Vim 颜色显示插件 colorizer
 ---
 
 这款插件有点不爽的就是执行效率很低。 虽然有后续的改进版本 ，但我还是希望能找到
