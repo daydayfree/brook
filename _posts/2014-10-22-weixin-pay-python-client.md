@@ -33,6 +33,7 @@ title: 微信支付Python客户端
 
 1. 原生支付
     生成二维码的原始内容
+
     ```python
     def native_payment_url(self, order):
         params = {}
