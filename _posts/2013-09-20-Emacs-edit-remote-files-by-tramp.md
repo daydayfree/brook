@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emacs edit remote files by tramp
+title: 通过 Emacs tramp 编辑远程文件
 ---
 
 我们都知道可以通过 Emacs tramp 来编辑远程文件，可是我在使用 tramp 时候遇到不少的坑，大都是因为没有好好阅读相关的文档，我一般都是某个东西能满足我的需求就行了，所以很少深入的研究某个东西，这是个不好的习惯，得改!
