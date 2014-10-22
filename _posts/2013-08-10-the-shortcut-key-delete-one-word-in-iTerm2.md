@@ -7,4 +7,3 @@ Shortcut Key: meta + Backspace
 
 + Preferences - profile - keys
 + Left option key acts as: checked +ESC
-
