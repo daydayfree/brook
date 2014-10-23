@@ -83,5 +83,8 @@ title: 微信支付Python客户端
         base += '&key=' + PARTNER_KEY
         return hashlib.md5(base).hexdigest()
     ```
+2. 退款
+
+    如果一次退款没有退款成功，提示正在处理，需要再次确认，可以通过退款单编号请求微信服务，知道交易成功。
 
 待续...
