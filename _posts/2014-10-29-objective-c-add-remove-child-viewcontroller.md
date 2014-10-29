@@ -24,8 +24,6 @@ searchVC.view.frame = self.view.bounds;
 // SearchViewController.m
 [self willMoveToParentViewController:nil];
 [self.view removeFromSuperview];
-[self removeFromParentViewController];[self willMoveToParentViewController:nil];
-[self.view removeFromSuperview];
 [self removeFromParentViewController];
 ```
 
