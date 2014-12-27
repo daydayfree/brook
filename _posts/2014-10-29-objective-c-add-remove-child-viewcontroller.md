@@ -27,5 +27,8 @@ searchVC.view.frame = self.view.bounds;
 [self removeFromParentViewController];
 ```
 
-苹果官方文档: [猛击这里](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/CreatingCustomContainerViewControllers/CreatingCustomContainerViewControllers.html)
+ISSUE: 在 iOS6 or iOS7, 如果 ParentViewController 是 UITabBarViewController 会引起 `ParentViewController Dealloced Error`
 
+可以将移除操作放在 ParentViewContrller 里，ParentViewController 实现移除的代理，设置 SearchViewController 代理为 ParentViewContrller，在取消搜索 Action 中调用代理方法。
+
+苹果官方文档: [猛击这里](https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/CreatingCustomContainerViewControllers/CreatingCustomContainerViewControllers.html)
