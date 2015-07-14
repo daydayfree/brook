@@ -1,4 +1,7 @@
---- layout: post title: 定义函数特性之 constructor ---
+---
+layout: post
+title: 定义函数特性之 constructor
+---
 
 在C语言里我们可以通过定义函数特性来改变函数的执行方式，比如可以通过 __attribute__((constructor)) 让函数在 main 函数之前执行，还可以通过 constructor 优先级参数区分函数执行的优先级。这样可以在程式真正运行之前做一些额外的检查工作。
 
@@ -6,7 +9,6 @@
 + main 函数执行之后执行 __attribute__((constructor))
 
 ```python
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -33,7 +35,6 @@ int main(int args, char **argv)
 
 
 ```
-
 运行的结果：
 
 ```python
@@ -48,4 +49,6 @@ Bye
 
 ```
 
-文档链接： https://gcc.gnu.org/onlinedocs/gcc/Function-Attributes.html#Function-Attributes
+参考链接：
+https://gcc.gnu.org/onlinedocs/gcc/Function-Attributes.html#Function-Attributes
+http://nshipster.com/__attribute__/
